@@ -9,7 +9,7 @@
         :settings="{ suppressScrollX: true, wheelPropagation: false }"
         class="customizer-body ps rtl-ps-none"
       >
-        <div
+        <!-- <div
           class
           v-if="getThemeMode.layout != 'vertical-sidebar' && getThemeMode.layout != 'vertical-sidebar-two'"
         >
@@ -24,7 +24,7 @@
               <span class="checkmark"></span>
             </label>
           </div>
-        </div>
+        </div> -->
 
         <div class>
           <div class="card-header">
@@ -49,7 +49,7 @@
               <a @click="SetLocal('en')">
                 <i title="en" class="flag-icon flag-icon-squared flag-icon-gb"></i> English
               </a>
-              <a @click="SetLocal('fr')">
+              <!-- <a @click="SetLocal('fr')">
                 <i title="fr" class="flag-icon flag-icon-squared flag-icon-fr"></i>
                 <span class="title-lang">French</span>
               </a>
@@ -88,13 +88,13 @@
               <a @click="SetLocal('it')">
                 <i title="it" class="flag-icon flag-icon-squared flag-icon-it"></i>
                 <span class="title-lang">Italien</span>
-              </a>
+              </a> -->
               <a @click="SetLocal('Ind')">
                 <i title="sa" class="flag-icon flag-icon-squared flag-icon-id"></i>
                 <span class="title-lang">Indonesian</span>
               </a>
 
-              <a @click="SetLocal('tr_ch')">
+              <!-- <a @click="SetLocal('tr_ch')">
                 <i title="sa" class="flag-icon flag-icon-squared flag-icon-cn"></i>
                 <span class="title-lang">Traditional Chinese</span>
               </a>
@@ -111,7 +111,7 @@
               <a @click="SetLocal('kr')">
                 <i title="sa" class="flag-icon flag-icon-squared flag-icon-kr"></i>
                 <span class="title-lang">Korean</span>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
