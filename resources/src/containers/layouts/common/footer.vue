@@ -16,7 +16,7 @@
           <div>
             <div>
               <p class="m-0">&copy; 2021 {{$t('developed_by')}} {{currentUser.developed_by}}</p>
-              <p class="m-0">All rights reserved - v3.9.0</p>
+              <p class="m-0">All rights reserved - v1.0</p>
             </div>
           </div>
           <span class="flex-grow-1"></span>
