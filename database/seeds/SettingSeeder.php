@@ -20,11 +20,11 @@ class SettingSeeder extends Seeder
                 'currency_id' => 1,
                 'client_id' => 1,
                 'warehouse_id' => Null,
-                'CompanyName' => 'Stocky',
+                'CompanyName' => 'Surga Mainan Indonesia',
                 'CompanyPhone' => '6315996770',
                 'CompanyAdress' => '3618 Abia Martin Drive',
-                'footer' => 'Stocky - Surga Mainan Indonesia',
-                'developed_by' => 'Stocky',
+                'footer' => 'SMI - Surga Mainan Indonesia',
+                'developed_by' => 'Surga Mainan Indonesia',
                 'logo' => 'logo-default.png',
             )
             
