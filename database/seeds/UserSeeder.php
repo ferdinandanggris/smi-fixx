@@ -20,7 +20,7 @@ class UserSeeder extends Seeder
                 'lastname' => 'Castillo',
                 'username' => 'William Castillo',
                 'email' => 'admin@example.com',
-                'password' => '$2y$10$IFj6SwqC0Sxrsiv4YkCt.OJv1UV4mZrWuyLoRG7qt47mseP9mJ58u',
+                'password' => bcrypt('admin'),
                 'avatar' => 'no_avatar.png',
                 'phone' => '0123456789',
                 'role_id' => 1,

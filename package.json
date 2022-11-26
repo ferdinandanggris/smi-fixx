@@ -27,7 +27,7 @@
         "laravel-mix": "^5.0.1",
         "lodash.orderby": "^4.6.0",
         "mobile-device-detect": "^0.4.3",
-        "moment": "^2.29.1",
+        "moment": "^2.29.4",
         "moment-locales-webpack-plugin": "^1.2.0",
         "nprogress": "^0.2.0",
         "postcss-loader": "^3.0.0",
